@@ -1,0 +1,41 @@
+# Cursor Rules for GenAI Learning Repository
+
+## Project Structure
+- Keep it simple and organized
+- Each project goes in its own folder under `projects/`
+- Use `experiments/` for quick tests and prototypes
+- Shared utilities go in `shared/` (keep minimal)
+- Notebooks go in `notebooks/` for exploration
+
+## Code Guidelines
+- Write clean, readable Python code
+- Use type hints when helpful
+- Add docstrings for functions
+- Keep functions small and focused
+- Use meaningful variable names
+
+## AI/ML Best Practices
+- Always split data into train/test sets
+- Use random seeds for reproducibility
+- Save models and results with timestamps
+- Document your experiments
+- Version your data and models
+
+## File Organization
+- Each project should have its own README
+- Include requirements.txt for project-specific dependencies
+- Use .gitignore to exclude data, models, and results
+- Keep notebooks clean (clear outputs before committing)
+
+## Development Workflow
+1. Create a new project folder
+2. Copy the project template if needed
+3. Install dependencies
+4. Start coding and experimenting
+5. Document findings in README
+
+## Common Commands
+- `pip install -r requirements.txt` - Install dependencies
+- `jupyter notebook` - Start Jupyter
+- `python -m pytest` - Run tests
+- `git add . && git commit -m "message"` - Commit changes
