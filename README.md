@@ -1,55 +1,42 @@
-# GenAI Learning Repository
+# GenAI Learning
 
-This repository is a personal learning and experimentation log focused on
-Machine Learning, Large Language Models (LLMs), and Generative AI.
+This repository is a personal learning log for Artificial Intelligence and
+Machine Learning, with a growing focus on Large Language Models (LLMs) and
+Generative AI.
 
-It contains small projects, experiments, and notes created while studying
-AI/ML concepts through courses, self-study, and hands-on practice.
-The emphasis is on understanding fundamentals, not building production systems.
+The goal of this repository is to build intuition through small, runnable
+experiments while studying core concepts and modern AI systems. The emphasis
+is on learning and exploration rather than production-ready implementations.
 
-## Repository Structure
+## Scope
 
-```
-genai_learning/
-├── projects/                 # Individual project implementations
-│   ├── nlp/                 # Natural Language Processing projects
-│   ├── computer_vision/     # Computer Vision projects
-│   ├── reinforcement_learning/ # RL experiments
-│   ├── generative_ai/       # Generative AI models
-│   └── traditional_ml/      # Traditional ML algorithms
-├── experiments/             # Quick experiments and prototypes
-├── shared/                  # Shared utilities and common code
-│   ├── data_processing/     # Data preprocessing utilities
-│   ├── model_utils/         # Model training and evaluation utilities
-│   ├── visualization/       # Plotting and visualization tools
-│   └── config/              # Configuration management
-├── datasets/                # Local datasets (gitignored)
-├── models/                  # Saved model checkpoints (gitignored)
-├── notebooks/               # Jupyter notebooks for exploration
-├── docs/                    # Documentation and learning notes
-├── tests/                   # Unit tests for shared utilities
-└── requirements/            # Environment requirements
-```
+Topics explored in this repository may include:
 
-## Getting Started
+- Machine learning fundamentals
+- Neural networks and optimization
+- Transformers and attention mechanisms
+- Large Language Models (LLMs)
+- Generative AI systems and workflows
 
-1. Clone the repository
-2. Set up virtual environment: `python -m venv .venv`
-3. Activate environment: `.venv\Scripts\activate` (Windows) or `source .venv/bin/activate` (Unix)
-4. Install dependencies: `pip install -r requirements/base.txt`
+The structure and contents evolve over time as new concepts are learned.
 
-## Project Guidelines
+## Usage
 
-- Each project should be self-contained with its own README
-- Use shared utilities from the `shared/` directory
-- Document experiments and findings
-- Follow consistent naming conventions
-- Include requirements.txt for each project
+Code in this repository is intended to be:
+- Readable and self-contained
+- Easy to run locally
+- Focused on demonstrating ideas rather than performance
 
-## Learning Path
+Examples can be run directly using Python after setting up a virtual
+environment.
 
-This repository supports learning various AI/ML concepts through hands-on projects and experiments.
+## Environment
 
-> Note: This repository evolves as my learning progresses.
-> Code quality and structure may improve over time as concepts mature.
+A Python virtual environment is recommended for running the examples.
+Dependencies are intentionally kept minimal and may change as learning
+progresses.
 
+## Notes
+
+This repository reflects an ongoing learning process. Some examples may be
+simplified or exploratory by design.
