@@ -1,34 +1,55 @@
 # GenAI Learning Repository
 
-A simple repository for exploring AI/ML projects and experiments.
+This repository is a personal learning and experimentation log focused on
+Machine Learning, Large Language Models (LLMs), and Generative AI.
 
-## Structure
+It contains small projects, experiments, and notes created while studying
+AI/ML concepts through courses, self-study, and hands-on practice.
+The emphasis is on understanding fundamentals, not building production systems.
+
+## Repository Structure
 
 ```
 genai_learning/
-├── projects/          # Individual AI/ML projects
-├── experiments/       # Quick experiments and prototypes  
-├── notebooks/         # Jupyter notebooks for exploration
-├── shared/           # Simple shared utilities
-└── requirements.txt  # Dependencies
+├── projects/                 # Individual project implementations
+│   ├── nlp/                 # Natural Language Processing projects
+│   ├── computer_vision/     # Computer Vision projects
+│   ├── reinforcement_learning/ # RL experiments
+│   ├── generative_ai/       # Generative AI models
+│   └── traditional_ml/      # Traditional ML algorithms
+├── experiments/             # Quick experiments and prototypes
+├── shared/                  # Shared utilities and common code
+│   ├── data_processing/     # Data preprocessing utilities
+│   ├── model_utils/         # Model training and evaluation utilities
+│   ├── visualization/       # Plotting and visualization tools
+│   └── config/              # Configuration management
+├── datasets/                # Local datasets (gitignored)
+├── models/                  # Saved model checkpoints (gitignored)
+├── notebooks/               # Jupyter notebooks for exploration
+├── docs/                    # Documentation and learning notes
+├── tests/                   # Unit tests for shared utilities
+└── requirements/            # Environment requirements
 ```
 
 ## Getting Started
 
-1. Set up virtual environment: `python -m venv .venv`
-2. Activate: `.venv\Scripts\activate` (Windows) or `source .venv/bin/activate` (Unix)
-3. Install dependencies: `pip install -r requirements.txt`
-4. Start a new project or experiment!
+1. Clone the repository
+2. Set up virtual environment: `python -m venv .venv`
+3. Activate environment: `.venv\Scripts\activate` (Windows) or `source .venv/bin/activate` (Unix)
+4. Install dependencies: `pip install -r requirements/base.txt`
 
-## Quick Start
+## Project Guidelines
 
-- Create a new project: `mkdir projects/my_project`
-- Start Jupyter: `jupyter notebook`
-- Use shared utilities: `from shared import clean_text, split_data`
+- Each project should be self-contained with its own README
+- Use shared utilities from the `shared/` directory
+- Document experiments and findings
+- Follow consistent naming conventions
+- Include requirements.txt for each project
 
-## Guidelines
+## Learning Path
 
-- Keep it simple and focused
-- Document your experiments
-- Use meaningful names
-- Follow the .cursorrules file for development guidelines
+This repository supports learning various AI/ML concepts through hands-on projects and experiments.
+
+> Note: This repository evolves as my learning progresses.
+> Code quality and structure may improve over time as concepts mature.
+

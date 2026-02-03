@@ -1,54 +1,5 @@
-# Python
 .venv/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Jupyter Notebook
-.ipynb_checkpoints/
-
-# Data and models
-datasets/
-models/
-data/
-*.csv
-*.json
-*.pkl
-*.h5
-*.hdf5
-*.pth
-*.pt
-*.ckpt
-
-# Results and outputs
-results/
-outputs/
-logs/
-*.log
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Temporary files
-*.tmp
-*.temp
+.ipynb_checkpoints/
